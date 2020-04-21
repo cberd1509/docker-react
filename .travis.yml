@@ -9,6 +9,7 @@ script:
   - docker run -e CI=true cberd1509/docker-react npm run test
 
 deploy:
+  
   provider: elasticbeanstalk
   region: "sa-east-1"
   app: "docker-guide"

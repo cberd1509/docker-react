@@ -11,10 +11,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "CHOKIDAR_USEPOLLING=true react-scripts start",
+    "build": "CHOKIDAR_USEPOLLING=true react-scripts build",
+    "test": "CHOKIDAR_USEPOLLING=true react-scripts test",
+    "eject": "CHOKIDAR_USEPOLLING=true react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

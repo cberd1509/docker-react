@@ -9,7 +9,7 @@ test('renders learn react link', () => {
 });
 
 
-test('renders learn react link', () => {
+test('Another name for the test', () => {
   const { getByText } = render(<App />);
   const linkElement = getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();

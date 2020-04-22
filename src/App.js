@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Again with the choke option and looking if it watches the tess
+          Deployed for testing purposes and doing final tests
         </p>
         <a
           className="App-link"

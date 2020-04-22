@@ -12,10 +12,10 @@ deploy:
   
   provider: elasticbeanstalk
   region: "sa-east-1"
-  app: "docker-guide"
-  env: "DockerGuide-Dev"
+  app: "eb-tutorial"
+  env: "eb-tutorial-dev"
   bucket_name: "elasticbeanstalk-sa-east-1-532928905538"
-  bucket_path: "docker-guide"
+  bucket_path: "eb-tutorial"
   access_key_id: "$AWS_ACCESS_KEY"
   secret_access_key: "$AWS_SECRET_KEY"
   on:
